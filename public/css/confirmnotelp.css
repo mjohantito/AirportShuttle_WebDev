@@ -22,12 +22,12 @@ body{
     line-height: 45px;
     cursor: pointer;
 }
-.ConfirmPassword img{
+.Confirmnotelp img{
     width: 1560px;
     height: 700px;
     margin-top: 10px;
 }
-.ConfirmPassword {
+.Confirmnotelp {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -62,7 +62,7 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.ConfirmPassword .fieldpass {
+.Confirmnotelp .fieldtelp {
     text-align: center;
     height: 7%;
     width: 80%;
@@ -70,7 +70,7 @@ body{
     margin-bottom: 15px;
     margin-left: 10%;
 }
-.ConfirmPassword .fieldpass input{
+.Confirmnotelp .fieldtelp input{
     height: 100%;
     width: 100%;
     border: 1px solid grey;
@@ -80,7 +80,7 @@ body{
     font-size: 15px;
     /* text-align: center; */
 }
-.ConfirmPassword .continue input{
+.Confirmnotelp .continue input{
     width: 80px;
     height: 30px;
     background: blue;
@@ -94,7 +94,7 @@ body{
     transition: all ease 0.25 s;
     margin-bottom: 15px;
 }
-.ConfirmPassword .continue {
+.Confirmnotelp .continue {
     text-align: center;
     margin-top: 5px;
 }

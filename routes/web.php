@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/forgotPassword', function () {
     return view('forgotPassword');
 });
+
+Route::post("/newpassword", function () {
+    return view("newpassword");
+});
+
+Route::post("/confirmnotelp", function () {
+    return view("confirmnotelp");
+});
