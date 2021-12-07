@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confirm No Telp | Airport Shuttle</title>
-    <link rel="stylesheet" href="css/forgotpassword.css">
+    <link rel="stylesheet" href="css/confirmnotelp.css">
     <script src="https://kit.fontawesome.com/af325f8c09.js" crossorigin="anonymous"></script>
 </head>
 <body>
