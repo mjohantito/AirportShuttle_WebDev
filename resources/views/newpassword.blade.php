@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/af325f8c09.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Ganti jadi new passworrdddddd -->
+    
     <div class="back-btn">
         <i class="fas fa-arrow-circle-left"></i>
     </div>
