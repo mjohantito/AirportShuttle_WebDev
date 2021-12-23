@@ -1,0 +1,30 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.back-btn {
+    position: fixed;
+    height: 45px;
+    width: 45px;
+    background: white;
+    left: 20px;
+    top: 20px;
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+    line-height: 45px;
+    cursor: pointer;
+}
+.Cover img{
+    width: 100%;
+}
+.AboutUs h2{
+    font-size: 30px;
+    text-align: center;
+}
+.AboutUs img{
+    width: 25%;
+    text-align: center;
+}
