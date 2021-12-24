@@ -13,9 +13,8 @@
         <i class="fas fa-arrow-circle-left"></i>
     </div>
     <div class="Cover">
-        <div class="cover">
+        <div class="img">
             <img src="images/AboutUs.png"/>
-            
         </div>
     <div class="AboutUs">
         <h2>About Azhuu</h2>
