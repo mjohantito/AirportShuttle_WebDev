@@ -12,19 +12,25 @@
     <div class="back-btn">
         <i class="fas fa-arrow-circle-left"></i>
     </div>
+    <!-- Cover -->
     <div class="Cover">
         <div class="img">
             <img src="images/AboutUs.png"/>
         </div>
-    <div class="AboutUs">
-        <h2>About Azhuu</h2>
+    </div>
+    <!-- About Azhuu p -->
+    <div class="aboutus_container">
+        <div class="AboutUs">
+            <h2>About Azhuu</h2>
+        </div>
         <div class="img"></div>
             <img src="images/azhuu.png"/>
             <h2>Azhuu Inc.</h2>
         </div>
     </div>
+    
         
-        <div class="bedafont">
+        <!-- <div class="bedafont">
             <h3>SINCE 2021</h3>
             <p>Azhuu is a leading technology company in Indonesia that provides access for people to find and book various transportation services. As a lifestyle super app in Indonesia, Azhuu has a complete product portfolio including airport shuttle transportation service.</p>
         </div>
@@ -42,6 +48,6 @@
                 <img src="images/partner3.png"/>
             </div>
         </div>
-    </div>
+    </div> -->
 </body>
 </html>
