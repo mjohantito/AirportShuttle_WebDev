@@ -40,23 +40,24 @@
     
     <!-- Our Partners paragraph-->
     <div class="ourpartners_container">
-        <div class="heading">
+        <div class="heading1">
             <h3>FaFavourite Bus Operators</h3>
             <p>We work with many favourite bus operators accros Indonesia for the best experience we gave to you!</p>
         </div>
+        <!-- Partner Images Container -->
+        <div class="partnersimage_container">
+            <div class="image1container">
+                <img src="images/partner1.png"/>
+            </div>
+            <div class="image2container">
+                <img src="images/partner2.png"/>
+            </div>
+            <div class="image3container">
+                <img src="images/partner3.png"/>
+            </div>
+        </div>
     </div>
 
-    <!-- Partner Images Container -->
-    <div class="partnersimage_container">
-        <div class="image1container">
-            <img src="images/partner1.png"/>
-        </div>
-        <div class="image2container">
-            <img src="images/partner2.png"/>
-        </div>
-        <div class="image3container">
-            <img src="images/partner3.png"/>
-        </div>
-    </div>
+    
 </body>
 </html>
