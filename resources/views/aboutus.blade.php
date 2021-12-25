@@ -23,10 +23,6 @@
         <div class="AboutUs">
             <h2>About Azhuu</h2>
         </div>
-        <div class="img"></div>
-            <img src="images/azhuu.png"/>
-            <h2>Azhuu Inc.</h2>
-        </div>
     </div>
     
         
