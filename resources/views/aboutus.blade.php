@@ -21,29 +21,42 @@
     <!-- About Azhuu p -->
     <div class="aboutus_container">
         <div class="AboutUs">
-            <h2>About Azhuu</h2>
+            <h1>About Azhuu</h1>
+            <img src="images/azhuu.png" class="center"/>
+            <h2>Azhuu Inc.</h2>
+            <h3>SINCE 2021</h3>
+        </div>
+    </div>
+
+    <!-- Paragraph about us -->
+    <div class="aboutus_paragraph">
+        <div class="paragraph">
+            <p>Azhuu is a leading technology company in Indonesia that provides access for people to find and book various transportation services. As a lifestyle super app in Indonesia, Azhuu has a complete product portfolio including airport shuttle transportation service.</p>
+        </div>
+        <div class="heading_ourpartners">
+            <h2>Our Partners</h2>
         </div>
     </div>
     
-        
-        <!-- <div class="bedafont">
-            <h3>SINCE 2021</h3>
-            <p>Azhuu is a leading technology company in Indonesia that provides access for people to find and book various transportation services. As a lifestyle super app in Indonesia, Azhuu has a complete product portfolio including airport shuttle transportation service.</p>
-        </div>
-        <div class="ourpartners">
-            <h2>Our Partners</h2>
-            <h3>Favourite Bus Operators</h3>
+    <!-- Our Partners paragraph-->
+    <div class="ourpartners_container">
+        <div class="heading">
+            <h3>FaFavourite Bus Operators</h3>
             <p>We work with many favourite bus operators accros Indonesia for the best experience we gave to you!</p>
-            <div class="img1">
-                <img src="images/partner1.png"/>
-            </div>
-            <div class="img2">
-                <img src="images/partner2.png"/>
-            </div>
-            <div class="img3">
-                <img src="images/partner3.png"/>
-            </div>
         </div>
-    </div> -->
+    </div>
+
+    <!-- Partner Images Container -->
+    <div class="partnersimage_container">
+        <div class="image1container">
+            <img src="images/partner1.png"/>
+        </div>
+        <div class="image2container">
+            <img src="images/partner2.png"/>
+        </div>
+        <div class="image3container">
+            <img src="images/partner3.png"/>
+        </div>
+    </div>
 </body>
 </html>

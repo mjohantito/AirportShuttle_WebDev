@@ -20,11 +20,35 @@
 .Cover img{
     width: 100%;
 }
+.AboutUs h1{
+    font-size: 40px;
+    text-align: center;
+}
+.AboutUs img {
+    width: 20%;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .AboutUs h2{
     font-size: 30px;
     text-align: center;
 }
-.AboutUs img{
-    width: 25%;
+.AboutUs h3{
+    font-size: 20px;
+    text-align: center;
+}
+.paragraph{
+    font-size: 20px;
+    text-align: center;
+}
+.oupartners_container{
+    display: grid;
+    justify-content: center;
+}
+.oupartners_container h3{
     
 }
