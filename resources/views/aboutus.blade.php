@@ -39,25 +39,17 @@
     </div>
     
     <!-- Our Partners paragraph-->
-    <div class="ourpartners_container">
-        <div class="heading1">
-            <h3>FaFavourite Bus Operators</h3>
-            <p>We work with many favourite bus operators accros Indonesia for the best experience we gave to you!</p>
-        </div>
+    <span class="ourpartners_container">
+        <span class="heading1">
+            <span><b>Favourite Bus Operators</b>
+            <br>We work with many favourite bus operators accross Indonesia <br>for the best experience we gave to you!</span>
+        </span>
         <!-- Partner Images Container -->
-        <div class="partnersimage_container">
+        <span class="partnersimage_container">
             <div class="image1container">
-                <img src="images/partner1.png"/>
+                <img src="images/partnerlogo.png"/>
             </div>
-            <div class="image2container">
-                <img src="images/partner2.png"/>
-            </div>
-            <div class="image3container">
-                <img src="images/partner3.png"/>
-            </div>
-        </div>
-    </div>
-
-    
+        </span>
+    </span>
 </body>
 </html>

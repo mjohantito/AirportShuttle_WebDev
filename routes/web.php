@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('faq');
+    return view('aboutus');
 });
 
 Route::get('/forgotPassword', function () {

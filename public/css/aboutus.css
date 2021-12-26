@@ -49,6 +49,20 @@
     display: grid;
     justify-content: center;
 }
-.oupartners_container h3{
-    
+.heading_ourpartners h2{
+    font-size: 30px;
+    text-align: center;
+}
+.oupartners_container{
+    margin-top: 200px;
+    border: red 2px;
+}
+/* .heading1 span{
+    margin-top: 100px;
+    border: 2px red;
+} */
+.partnersimage_container img{
+    width: 50%;
+    float: right;
+    margin-right: 20px;
 }
