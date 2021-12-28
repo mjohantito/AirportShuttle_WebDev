@@ -17,3 +17,29 @@
     line-height: 45px;
     cursor: pointer;
 }
+.faq h2{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+  
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;}
+
+.isi p {
+    border: 2px black solid;
+}
