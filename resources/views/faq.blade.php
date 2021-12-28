@@ -13,8 +13,10 @@
         <i class="fas fa-arrow-circle-left"></i>
     </div>
     <!-- Title -->
-    <div class="faq_tittle">
-        <h2>What can I help?</h2>
+    <div class="faq">
+        <div class="faq_tittle">
+            <h2>What can I help?</h2>
+        </div>
     </div>
 </body>
 </html>
