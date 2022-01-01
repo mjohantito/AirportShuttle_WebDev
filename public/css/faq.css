@@ -22,6 +22,9 @@
     margin-top: 10%;
     margin-bottom: 10%;
 }
+.pagination1{
+    margin-left: 26%;
+}
 
 .pagination a {
     color: black;
@@ -29,17 +32,33 @@
     padding: 8px 16px;
     text-decoration: none;
     transition: background-color .3s;
+    border: 2px black solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .pagination a.active {
-    background-color: dodgerblue;
-    color: white;
+    background-color: yellow;
+    color: black;
 }
   
 
 .pagination a:hover:not(.active) {
     background-color: #ddd;}
+    
 
-.isi p {
-    border: 2px black solid;
+.kotak{
+    width: 700px;
+    height: auto;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    left: 26%;
+    margin-top: 38px;
 }
