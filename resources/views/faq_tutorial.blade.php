@@ -12,7 +12,7 @@
     <div class="back-btn">
         <i class="fas fa-arrow-circle-left"></i>
     </div>
-
+    
     <!-- Title -->
     <div class="faq">
         <div class="faq_tittle">

@@ -33,7 +33,14 @@
     <!-- Nyoba ss -->
     <div class="kotak" role="presentation" tabindex="null">
         <div class="isi">
-            <p>Marikita coba yaaa .. wkwkwkwk<br>coba lagi<br>yoii</p>
+            <p>
+                <strong>Q: Daerah mana saja yang termasuk dalam layanan Azhuu Airport Shuttle</strong><br>
+                A: Yang tercakup dalam layanan kami adalah Seluruh Pulau Jawa dengan Airport besar, Bali, Sumatra, Makasar, dan Lombok.<br><br>
+                <strong>Q: Kapan pemesanan paling lambat dapat dilakukan?</strong><br>
+                A: Paling lambat pemesanan dapat dilakukan 3 jam sebelum keberangkatan<br><br>
+                <strong>Q: Penerbangan saya mengalami penundaan, bisakah saya mengubah waktu keberangkatan shuttle pada pemesanan saya?</strong><br>
+                A: Kami sangat menyesal mendengar bahwa penerbangan anda ditunda. Jangan khawatir, transportasi yang kami sediakan akan memantau status penerbangan anda secara aktual.
+            </p>
         </div>
     </div>
 </body>
