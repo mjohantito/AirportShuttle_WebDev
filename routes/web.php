@@ -14,9 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('login');
+    return view('profile');
 });
 
 Route::get('/forgotPassword', function () {
     return view('forgotPassword');
+});
+
+Route::post("/newpassword", function () {
+    return view("newpassword");
+});
+
+Route::post("/confirmnotelp", function () {
+    return view("confirmnotelp");
 });
