@@ -23,7 +23,6 @@
     <!-- pagination -->
     <div class="pagination1">
         <div class="pagination">
-            <a href="faq_tutorial">Tutorial</a>
             <a class="active" href="#">FAQ</a>
             <a href="faq_callcenter">Call Center</a>
         </div>

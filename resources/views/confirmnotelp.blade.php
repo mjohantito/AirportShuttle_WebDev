@@ -20,7 +20,7 @@
                 <h2>Confirm Your Phone Number</h2>
                 <h3>Phone Number</h3>
                 <div class="fieldtelp">
-                    <input type="tel" id="phone" name="confirmnotelp" pattern="[0-9]{4}[0-9]{4}[0-9]{4}" placeholder="081345678910" required/>
+                    <input type="tel" id="phone" name="confirmnotelp" pattern="[0-9]{12}" placeholder="081345678910 (max 12 digit)" required/>
                 </div>
                 <div class="continue">
                     <input type="submit" value="CONTINUE"/>

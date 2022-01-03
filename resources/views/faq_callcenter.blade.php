@@ -23,7 +23,6 @@
     <!-- pagination -->
     <div class="pagination1">
         <div class="pagination">
-            <a href="faq_tutorial">Tutorial</a>
             <a href="faq_faq">FAQ</a>
             <a class="active" href="#">Call Center</a>
         </div>
@@ -33,7 +32,13 @@
     <!-- Nyoba ss -->
     <div class="kotak" role="presentation" tabindex="null">
         <div class="isi">
-            <p>Marikita coba yaaa .. wkwkwkwk<br>coba lagi<br>yoii</p>
+            <h2>
+                Contact Azhuu
+            </h2>
+            <p>
+                Email : azhuu@ciputra.ac.id<br>
+                Whatsapp : +62 813-1234-4321
+            </p>
         </div>
     </div>
 </body>
