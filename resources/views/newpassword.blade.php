@@ -9,12 +9,13 @@
     <script src="https://kit.fontawesome.com/af325f8c09.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <a href="/login">
     <div class="back-btn">
         <i class="fas fa-arrow-circle-left"></i>
     </div>
+    </a>
     <div class="ConfirmPassword">
-        <form method="post" id="forgotPassword" action="/confirmnotelp">
+        <form method="post" id="forgotPassword" action="/reset_data/{{$req->email}}">
             @csrf
             <div class ="fields">
                 <img src="images/azhuu.png"/>
@@ -32,6 +33,11 @@
                     <input type="submit" value="Continue"/>
                 </div>
             </div>
+            @if ($errors->any())
+        <div class="alert">
+            <h3>{{$errors->first()}}</h3>
+        </div>
+    @endif
     </div>
 </body>
 </html>

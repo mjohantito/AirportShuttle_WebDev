@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.logo img {
+    width: 150px;
+    margin-left: 45px;
+}
+.header {
+    border-bottom: 1px black solid;
+}
+.navie {
+    float: right;
+    margin-right: 20px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.navie li:nth-child(3) {
+    margin-right: 30px;
+}
+.navie a,
+.navie i {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.navie li {
+    list-style: none;
+}
+.navie a:hover {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.navie .sub li:nth-child(2) a:hover {
+    padding: 10px 23px 10px 10px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.navie i:hover {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+.navie li:hover .sub {
+    display: block;
+}
+.sub {
+    display: none;
+    z-index: 999;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    background: whitesmoke;
+    width: 90px;
+}
+.sub li {
+    width: 105px;
+    padding: 5px;
+    text-align: left;
+    margin-left: -5px;
+}
+.sub li:nth-child(1) {
+    border-bottom: 1px dotted black;
+}
+
+.navie input {
+    margin-left: 25px;
+}
+.multi-button button {
+    background: black;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+}
+
+.multi-button :nth-child(1) {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.multi-button :nth-child(2) {
+    border-radius: 0px 20px 20px 0px;
+}
+
+.multi-button button:hover {
+    cursor: pointer;
+    filter: drop-shadow(3px 5px 5px rgba(158, 158, 158, 0.45));
+}
+
+button:active {
+    filter: none;
+    transform: scale(0.95);
+}
+
+footer {
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer a {
+    text-decoration: none;
+    border: 1px solid red;
+}
+.logo2 img {
+    width: 85px;
+    margin-left: 35px;
+    position: absolute;
+    bottom: 45px;
+}
+.back-btn {
+    position: fixed;
+    height: 45px;
+    width: 45px;
+    background: white;
+    left: 50px;
+    top: 120px;
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: solid black 1px;
+    padding-bottom: 35px;
+    width: 100%;
+}
+.kanan {
+    border-radius: 20px;
+    width: 70%;
+    height: 500px;
+    margin-top: 30px;
+    background: whitesmoke;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.kanan .isi {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.kanan .isi .submit {
+    margin-top: 70px;
+    margin-left: 750px;
+    background-color: blue;
+    color: white;
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.kanan .isi .submit:hover {
+    background: white;
+    color: blue;
+    border: blue solid 2px;
+}
+
+.kiri {
+    width: 20%;
+    height: 350px;
+    margin-top: 30px;
+}
+.kiri .bawah {
+    margin-top: 150px;
+}
+.bold {
+    font-weight: bold;
+}

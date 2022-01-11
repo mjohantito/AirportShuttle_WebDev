@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/login.css" >
     <script src="https://kit.fontawesome.com/af325f8c09.js" crossorigin="anonymous"></script>
     <title>Halaman Login</title>
 </head>
 <body>
-    <div></div>
+    <a href="/">
     <div class="back-btn">
         <i class="fas fa-arrow-circle-left"></i>
     </div>
+    </a>
     <div class="login">
         <div class="login-content">
             <img src="images/azhuu.png"/>
             <h2>Login</h2>
-            <form method="post" id="frmLogin" action="#">
+            <form method="post" id="frmLogin" action="/login_data">
+                @csrf
                 <div class="fields">
                     <h3>Email</h3>
                     <div class="field email">
@@ -28,7 +30,7 @@
                         <input required type="password" name="pass" id="txtPass" placeholder="**********" required/>
                     </div>
                     <div class="forgot">
-                        <a href="forgotPassword">Forgot Password?</a>
+                        <a href="/forgot">Forgot Password?</a>
                     </div>
                     <div class="submit">
                         <input type="submit" value="Login" />
@@ -41,8 +43,15 @@
                 <div class="u2"></div>
             </div>
             <div class="regis">
-                <a href="#">Create your AZHUU account</a>
+                <form method="get" action="/regis">
+                    <button type="submit">Create your AZHUU account</button>
+                </form>
             </div>
+            @if ($errors->any())
+                <div class="alert">
+                    <h3>{{$errors->first()}}</h3>
+                </div>
+            @endif
         </div>
     </div>
 </body>

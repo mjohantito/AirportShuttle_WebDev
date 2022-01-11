@@ -1,0 +1,170 @@
+.logo img {
+    width: 150px;
+    margin-left: 45px;
+}
+
+.navie {
+    float: right;
+    margin-right: 20px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.navie li:nth-child(4) {
+    margin-right: -20px;
+}
+.navie li:nth-child(3) {
+    margin-right: 30px;
+}
+.navie a,
+.navie i {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.navie li {
+    list-style: none;
+}
+.navie a:hover {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.multi-button a {
+    padding: 0;
+}
+.multi-button a:nth-child(1):hover {
+    padding: 0;
+    border-radius: 20px 0px 0px 20px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.multi-button a:nth-child(2):hover {
+    padding: 0;
+    border-radius: 0px 20px 20px 0px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.navie .sub li:nth-child(2) a:hover {
+    padding: 10px 20px 10px 10px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.navie i:hover {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+.navie li:hover .sub {
+    display: block;
+}
+.sub {
+    display: none;
+    z-index: 999;
+    position: absolute;
+    top: 110px;
+    right: 20px;
+    background: whitesmoke;
+    width: 80px;
+}
+.sub li {
+    width: 90px;
+    padding: 5px;
+    text-align: left;
+    margin-left: -45px;
+}
+.sub li:nth-child(1) {
+    border-bottom: 1px dotted black;
+}
+
+.navie input {
+    margin-left: 25px;
+}
+.multi-button button {
+    background: black;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+}
+
+.multi-button .btn1 {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.multi-button .btn2 {
+    border-radius: 0px 20px 20px 0px;
+}
+
+.multi-button button:hover {
+    cursor: pointer;
+    filter: drop-shadow(3px 5px 5px rgba(158, 158, 158, 0.45));
+}
+button:hover {
+    cursor: pointer;
+    filter: drop-shadow(3px 5px 5px rgba(158, 158, 158, 0.45));
+}
+button:active {
+    filter: none;
+    transform: scale(0.95);
+}
+.sponsor img {
+    width: 400px;
+    margin-top: 30px;
+}
+
+.sponsor {
+    margin-left: 350px;
+}
+
+.bg img {
+    width: 1560px;
+    height: 700px;
+    margin-top: 10px;
+}
+
+.navie i {
+    margin-left: 25px;
+}
+footer {
+    margin-left: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(0, 140, 255);
+}
+footer a {
+    text-decoration: none;
+}
+
+.content .bg img {
+    width: 100%;
+}
+.aboutus {
+    margin: 0 10px;
+    padding: 30px 0;
+    text-align: center;
+    border: black 2px solid;
+}
+.aboutus p:nth-child(1) {
+    font-weight: bold;
+    font-size: 27px;
+}
+.aboutus .logoab img {
+    width: 150px;
+    margin-left: 0px;
+}
+.azhuinc {
+    font-weight: bold;
+    font-size: 17px;
+}
+.since {
+    font-weight: bold;
+    font-size: 13px;
+}

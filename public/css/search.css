@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.logo img {
+    width: 150px;
+    margin-left: 45px;
+}
+.header {
+    border-bottom: 1px black solid;
+}
+
+.navie {
+    float: right;
+    margin-right: 20px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.navie li:nth-child(3) {
+    margin-right: 30px;
+}
+.navie a,
+.navie i {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.navie li {
+    list-style: none;
+}
+.navie a:hover {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.navie .sub li:nth-child(2) a:hover {
+    padding: 10px 23px 10px 10px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.navie i:hover {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+.navie li:hover .sub {
+    display: block;
+}
+.sub {
+    display: none;
+    z-index: 999;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    background: whitesmoke;
+    width: 90px;
+}
+.sub li {
+    width: 105px;
+    padding: 5px;
+    text-align: left;
+    margin-left: -5px;
+}
+.sub li:nth-child(1) {
+    border-bottom: 1px dotted black;
+}
+
+.navie input {
+    margin-left: 25px;
+}
+.multi-button button {
+    background: black;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+}
+
+.multi-button .btn1 {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.multi-button .btn2 {
+    border-radius: 0px 20px 20px 0px;
+}
+.multi-button a {
+    padding: 0;
+}
+.multi-button a:nth-child(1):hover {
+    padding: 0;
+    border-radius: 20px 0px 0px 20px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.multi-button a:nth-child(2):hover {
+    padding: 0;
+    border-radius: 0px 20px 20px 0px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.multi-button button:hover {
+    cursor: pointer;
+    filter: drop-shadow(3px 5px 5px rgba(158, 158, 158, 0.45));
+}
+button:active {
+    filter: none;
+    transform: scale(0.95);
+}
+
+footer {
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer a {
+    text-decoration: none;
+    border: 1px solid red;
+}
+.logo2 img {
+    width: 85px;
+    margin-left: 35px;
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+}
+
+.search {
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    height: 900px;
+    width: 100%;
+}
+.button1 button {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+    margin-top: -15px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+.search .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px 100px 0;
+}
+.search .content .left {
+    background: whitesmoke;
+    width: 20%;
+    height: 450px;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-top: -35px;
+}
+.search .content .right {
+    background: whitesmoke;
+    width: 70%;
+    height: 450px;
+    border-radius: 15px;
+    margin-top: -35px;
+}
+.info {
+    background: white;
+    width: 55%;
+    height: 75px;
+    border-bottom-right-radius: 100px;
+}
+.info .infocontent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 20px;
+}
+.info .infocontent .infoleft i {
+    font-size: 40px;
+}
+.info .infocontent .inforight {
+    margin-left: 10px;
+    margin-top: -15px;
+}
+.content .left .reset {
+    float: right;
+    margin-right: 10px;
+}
+.content .left .isileft {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.content .left .isileft .submit input {
+    background-color: blue;
+    color: white;
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+.content .left .isileft .submit input:hover {
+    background: white;
+    color: blue;
+    border: blue solid 2px;
+}
+.content .left .isileft .bold {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.content .left .isileft .bold:nth-child(2) {
+    margin-top: 10px;
+}
+.content .left .isileft .checkbox {
+    margin-bottom: 5px;
+}
+.content .left .isileft .time {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.content .right .rute {
+    height: 25%;
+    width: 90%;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: white;
+    box-shadow: 5px 10px 18px #888888;
+}
+.content .right .kosong p {
+    margin-left: 360px;
+    margin-top: 160px;
+    font-size: 25px;
+}
+.content .right h4 {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.content .right .rute .kiri {
+    margin-left: 10px;
+}
+.content .right .rute .kiri .mid {
+    text-align: center;
+    margin-left: 350px;
+}
+.content .right .rute .kiri .judul {
+    font-weight: bold;
+    font-size: 17px;
+}
+.content .right .rute .kanan {
+    margin-left: 200px;
+    text-align: center;
+}
+.content .right .rute .kanan button {
+    background-color: blue;
+    color: white;
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.content .right .kanan button:hover {
+    background: white;
+    color: blue;
+    border: blue solid 2px;
+}
+.button1 button:hover {
+    background: white;
+    color: blue;
+    border: blue solid 2px;
+}

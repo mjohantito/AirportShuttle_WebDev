@@ -1,0 +1,134 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.back-btn {
+    position: fixed;
+    height: 45px;
+    width: 45px;
+    background: white;
+    left: 20px;
+    top: 20px;
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+    line-height: 45px;
+    cursor: pointer;
+}
+.login {
+    display: flex;
+    background-image: url(../images/sad.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 792px;
+    width: 100%;
+}
+.login-content {
+    width: 300px;
+    height: 550px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    margin-top: 100px;
+}
+.login-content img {
+    width: 125px;
+    height: 90px;
+    margin-left: 85px;
+    margin-bottom: 15px;
+}
+.login-content h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.login-content .fields .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+}
+.login-content form .field input {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+}
+.login-content .submit {
+    text-align: center;
+}
+.login-content .submit input {
+    width: 80px;
+    height: 30px;
+    background: blue;
+    border: 2px solid blue;
+    font-size: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    transition: all ease 0.25 s;
+    margin-bottom: 15px;
+}
+.login-content .submit input:hover {
+    transition: ease all 0.25s;
+    background: white;
+    color: blue;
+}
+.login-content .fields .forgot a {
+    text-align: right;
+}
+.login-content .underline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.login-content .underline .u1 {
+    width: 85px;
+    height: 1px;
+    background: black;
+}
+.login-content .underline .u2 {
+    width: 85px;
+    height: 1px;
+    background: black;
+}
+.login-content .underline h4 {
+    margin: 0 5px 0;
+}
+.login-content .regis button {
+    text-decoration: none;
+    width: 250px;
+    height: 30px;
+    background: blue;
+    border: 2px solid blue;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    transition: all ease 0.25 s;
+    padding: 5px;
+}
+.login-content .regis {
+    text-align: center;
+    margin-top: 15px;
+}
+.login-content .regis button:hover {
+    transition: ease all 0.25s;
+    background: white;
+    color: blue;
+}
+.login .alert {
+    text-align: center;
+    background: red;
+    padding: 10px 0;
+    margin-top: 30px;
+    color: black;
+}

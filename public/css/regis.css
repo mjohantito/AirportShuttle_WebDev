@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.back-button {
+    height: 45px;
+    width: 45px;
+    background: white;
+    left: 20px;
+    top: 20px;
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+    line-height: 45px;
+    cursor: pointer;
+}
+.logo img,
+.judul img {
+    width: 150px;
+}
+body {
+    background: #fff;
+}
+
+#header {
+    clear: both;
+    width: 780px;
+    height: 50px;
+    padding: 0 10px;
+}
+#header ul {
+    width: 600px;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+}
+#header ul li {
+    margin: 0;
+    padding: 0;
+}
+#header ul li a {
+    float: left;
+    display: block;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #7591ba;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    outline: none;
+}
+.header .logo {
+    float: left;
+    text-align: left;
+    margin-top: 0.1cm;
+    margin-left: 2cm;
+    margin-bottom: 0.1cm;
+    width: 40%;
+}
+
+.header .login {
+    float: right;
+    text-align: right;
+    margin-top: 0.5cm;
+    margin-right: 2cm;
+    margin-bottom: 0.5cm;
+    font-size: 20px;
+}
+
+.header .login .icon-login {
+    font-size: 40px;
+}
+
+.registration-section {
+    position: relative;
+    min-height: 500px;
+    top: 0;
+    left: 1cm;
+    right: 1cm;
+    width: calc(100% - 78px);
+    transition: all 0.5s ease;
+    z-index: 2;
+    margin-bottom: 5cm;
+}
+
+.registration-section .back-button {
+    float: left;
+    margin-top: 1cm;
+    margin-left: 1cm;
+}
+
+.registration-content {
+    display: inline;
+}
+
+.registration-section .foto {
+    float: right;
+    padding: 0.1cm;
+    margin-bottom: 0.5cm;
+    margin-top: 1.5cm;
+    margin-right: 0.3cm;
+}
+
+.registration-section .registration-text {
+    float: left;
+    font-size: 25px;
+    text-align: justify;
+    margin: 20px 0 20px 10px;
+    padding: 0;
+    list-style: none;
+    margin-left: 4cm;
+    font-weight: bold;
+    margin-top: 1.5cm;
+    margin-bottom: 0.5cm;
+}
+
+.registration-section .judul {
+    clear: both;
+    width: auto;
+    padding: 10px 20px 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    font-size: 15px;
+}
+
+.registration-text .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+}
+.registration-text form .field input {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    margin-right: 0.5cm;
+    font-size: 17px;
+}
+
+.registration-section .registration-text .kiri {
+    text-align: left;
+    float: left;
+}
+
+.registration-section .registration-text .kanan {
+    text-align: left;
+    float: right;
+}
+
+.registration-section .registration-text .button-register input {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    width: 97%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.registration-section .registration-text .button-register input:hover {
+    background: white;
+    color: blue;
+    border: blue solid 2px;
+}
+
+.profile {
+    border-radius: 15px;
+    border: black 1px;
+}
+
+.profile .update-profile {
+    float: left;
+    padding-left: 2cm;
+}
+
+.profile .update-password {
+    float: right;
+    padding-right: 2cm;
+}
+
+.profile .judul {
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+}
+
+.registration-content .alert {
+    text-align: center;
+    background: red;
+    padding: 10px 0;
+    margin-top: 30px;
+    color: black;
+}

@@ -1,0 +1,188 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.logo img {
+    width: 150px;
+    margin-left: 45px;
+}
+.header {
+    border-bottom: 1px black solid;
+}
+
+.navie {
+    float: right;
+    margin-right: 20px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.navie li:nth-child(3) {
+    margin-right: 30px;
+}
+.navie a,
+.navie i {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.navie li {
+    list-style: none;
+}
+.navie a:hover {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.navie .sub li:nth-child(2) a:hover {
+    padding: 10px 23px 10px 10px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.navie i:hover {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+.navie li:hover .sub {
+    display: block;
+}
+.sub {
+    display: none;
+    z-index: 999;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    background: whitesmoke;
+    width: 90px;
+}
+.sub li {
+    width: 105px;
+    padding: 5px;
+    text-align: left;
+    margin-left: -5px;
+}
+.sub li:nth-child(1) {
+    border-bottom: 1px dotted black;
+}
+
+.navie input {
+    margin-left: 25px;
+}
+.multi-button button {
+    background: black;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+}
+
+.multi-button .btn1 {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.multi-button .btn2 {
+    border-radius: 0px 20px 20px 0px;
+}
+.multi-button a {
+    padding: 0;
+}
+.multi-button a:nth-child(1):hover {
+    padding: 0;
+    border-radius: 20px 0px 0px 20px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.multi-button a:nth-child(2):hover {
+    padding: 0;
+    border-radius: 0px 20px 20px 0px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+.multi-button button:hover {
+    cursor: pointer;
+    filter: drop-shadow(3px 5px 5px rgba(158, 158, 158, 0.45));
+}
+button:active {
+    filter: none;
+    transform: scale(0.95);
+}
+
+footer {
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer a {
+    text-decoration: none;
+    border: 1px solid red;
+}
+.logo2 img {
+    width: 85px;
+    margin-left: 35px;
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pagination1 {
+    margin-left: 26%;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: 2px black solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.pagination a.active {
+    background-color: lightyellow;
+    color: black;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.kotak {
+    width: 700px;
+    height: auto;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    left: 26%;
+    margin-top: 38px;
+}
+.content {
+    border-bottom: solid black 1px;
+    padding-bottom: 410px;
+    width: 100%;
+}
