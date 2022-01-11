@@ -1,63 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile | Airport Shuttle</title>
-    <link rel="stylesheet" href="css/profile.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Profil</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/af325f8c09.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="back-btn">
-        <i class="fas fa-arrow-circle-left"></i>
-    </div>
-    <div class="profile">
-        <h2>User Profile</h3>
-        
-    </div>
-    <div class="Profile">
-        <form method="post" id="forgotPassword" action="/confirmnotelp">
-            @csrf
-            
-            <div class ="fields">
-                <h2>Update Profile</h2>
-                <h3>Name</h3>
-                <div class="fieldname">
-                    <input required type="text" name="name" id="profileName" required/>
-                </div>
-                <h3>Email</h3>
-                <div class="fieldemail">
-                    <input type="email" name="email" placeholder="Example@mail.com" required/>
-                </div>
-                <h3>Phone Number</h3>
-                <div class="fieldtelp">
-                    <input type="tel" id="phone" name="confirmnotelp" pattern="[0-9]{4}[0-9]{4}[0-9]{4}" placeholder="081345678910" required/>
-                </div>
+    <div class="header">
+        <span class="logo">
+            <img src="{{URL::asset('/assets/azhuu.png')}}" alt="" width="50%">
+        </span>
 
-                <div class="save">
-                    <input type="save" value="Save"/>
-                </div>
+        <span class="login">
+            <div class="login-details">
+                <a href="">
+                    <div class="icon-login">
+                        <i class='bx bx-user-circle'></i>
+                    </div>
+                    <div class="login-text">Log In</div>
+                </a>
             </div>
-            <div class ="fields">
-                <h2>Update Password</h2>
-                <h3>Current Password</h3>
-                <div class="fieldpasscurrent">
-                    <input required type="password" name="pass" id="txtPass" placeholder="**********" required/>
-                </div>
-                <h3>New Password</h3>
-                <div class="fieldpassnew">
-                    <input required type="password" name="pass" id="txtPass" placeholder="**********" required/>
-                </div>
-                <h3>Confirm New Password</h3>
-                <div class="fieldpassconfirm">
-                    <input required type="password" name="confirmpass" id="txtPass" placeholder="**********" required/>
-                </div>
-
-                <div class="update">
-                    <input type="submit" value="Update"/>
-                </div>
-            </div>
+        </span>
     </div>
+
+    <br><br><br><br><br><br><br><br><hr><br>
+
+    <a href="">
+        <div class="back-button">
+            <i class="fas fa-arrow-circle-left"></i>
+        </div>
+    </a>
+
+    <div class = "profil">
+        <div class = "searchbox">
+            <h1>Update Profil</h1>
+            <br><br><br>
+            <div class = "inputbox">
+                <label for="fname">Name</label>
+                <br>
+                <input type="text" id="fname" name="mail" placeholder="Jocelyn Leora">
+            </div>
+            <div class = "inputbox">
+                <label for="fname">Email</label>
+                <br>
+                <input type="email" id="mail" name="mail" placeholder="Jocelynl@Example.com">
+            </div>
+            <div class = "inputbox">
+                <label for="fname">Phone Number</label>
+                <br>
+                <input type="number" id="notel" name="notel" placeholder="08xxxxxxxxxx">
+            </div>
+            <div class = "inputbox1">
+                <br>
+                <br>
+                <input type="submit" value="save">
+            </div>
+        </div>
+        <div class = "searchbox2">
+            <h1>Update Password</h1>
+            <br><br><br>
+            <div class = "inputbox2">
+                <label for="fname">Current Password</label>
+                <br>
+                <input type="password" id="password" name="password" placeholder="******">
+            </div>
+            <div class = "inputbox2">
+                <label for="fname">New Password</label>
+                <br>
+                <input type="password" id="password" name="password" placeholder="******">
+            </div>
+            <div class = "inputbox2">
+               <label for="fname">Confirm Password</label>
+                <br>
+                <input type="password" id="password" name="password" placeholder="******">
+            </div>
+            <div class = "inputbox1">
+                <br>
+                <br>
+                <input type="submit" value="save">
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
